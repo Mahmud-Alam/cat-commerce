@@ -1,0 +1,12 @@
+.navbar-brand{
+    width: 60px;
+}
+.navbar-brand .logo{
+    width: 100%;
+}
+.btn-outline-light:hover{
+    color: #17a2b8;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
