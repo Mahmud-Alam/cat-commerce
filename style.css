@@ -10,3 +10,12 @@
 .navbar-toggler:focus{
     outline: none;
 }
+.banner1-bg{
+    background-color: #3691E2;
+}
+.banner2-bg{
+    background-color: #97DAD3
+}
+.banner3-bg{
+    background-color: #F1E158;
+}
