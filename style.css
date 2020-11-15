@@ -1,3 +1,26 @@
+@media only screen and (max-width: 600px){
+    .container{
+        padding-left:0 ;
+        padding-right:0;
+        margin-bottom:20px !important;
+    }
+    .carousel-h1{
+        font-size: 1.5em;
+    }
+    .price{
+        font-size: 2em;
+    }
+    .container-mbl{
+        padding-left:15px;
+        padding-right:15px ;
+    }
+    .carousel-mbl{
+        margin-top: 2em;
+    }
+}
+.container{
+    margin-bottom: 100px;
+}
 .navbar-brand{
     width: 60px;
 }
@@ -11,11 +34,33 @@
     outline: none;
 }
 .banner1-bg{
-    background-color: #3691E2;
+    background-color: rgb(190, 239, 255);
+    border-radius: 10px;
 }
 .banner2-bg{
-    background-color: #97DAD3
+    background-color: rgb(190, 255, 255);
+    border-radius: 10px;
 }
 .banner3-bg{
     background-color: #F1E158;
+    border-radius: 10px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 8%;
+}
+
+.carousel-item{
+    padding: 20px 60px;
+}
+.price{
+    color: #17a2b8;
+}
+.buy-now{
+    background-image: linear-gradient(to bottom,#2eaabd 0%,#17a2b8 100% );
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
 }
