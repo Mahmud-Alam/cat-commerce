@@ -1,26 +1,3 @@
-@media only screen and (max-width: 600px){
-    .container{
-        padding-left:0 ;
-        padding-right:0;
-        margin-bottom:20px !important;
-    }
-    .carousel-h1{
-        font-size: 1.75em;
-    }
-    .price{
-        font-size: 2em;
-    }
-    .container-mbl{
-        padding-left:15px;
-        padding-right:15px ;
-    }
-    .carousel-mbl{
-        margin-top: 2em;
-    }
-    .carousel-span{
-        display: none;
-    }
-}
 .container{
     margin-bottom: 100px;
 }
@@ -49,6 +26,10 @@
     border-radius: 10px;
 }
 
+.carousel-h1{
+    color: rgb(61, 61, 61);
+}
+
 .carousel-control-next, .carousel-control-prev {
     width: 8%;
 }
@@ -66,4 +47,79 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.div-cat{
+    color: rgb(61,61,61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 45px;
+    overflow: hidden;
+}
+.cat-h1{
+    color: rgb(61, 61, 61);
+}
+.div-cat img{
+    width: 50%;
+}
+.cat1{
+    background-image: linear-gradient(60deg, rgb(159, 232, 245), rgb(103, 226, 248));
+}
+.cat2{
+    background-image: linear-gradient(60deg,rgb(192, 255, 247), rgb(67, 252, 227));
+}
+.cat3{
+    background-image: linear-gradient(60deg,rgb(165, 250, 207),rgb(111, 243, 188));
+}
+.cat3 img{
+    width: 40%;
+}
+.cat-hr{
+    width: 120px;
+    height: 3px;
+    background-color: #17a2b8;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        padding-left:0 ;
+        padding-right:0;
+        margin-bottom:30px !important;
+    }
+    .carousel-h1{
+        font-size: 1.75em;
+    }
+    .price{
+        font-size: 2em;
+    }
+    .container-mbl{
+        padding-left:15px;
+        padding-right:15px;
+        margin-bottom: 100px !important;
+    }
+    .carousel-mbl{
+        margin-top: 2em;
+    }
+    .carousel-span{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px){
+    .div-cat{
+        margin: 0 auto;
+    }
+    .div-cat h1{
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 1000px ){
+    .div-cat{
+        margin: 0 auto;
+    }
+    .div-cat h1{
+        font-size: 2em;
+    }
 }
