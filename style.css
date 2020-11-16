@@ -15,21 +15,29 @@
 }
 .banner1-bg{
     background-color: rgb(190, 239, 255);
-    border-radius: 10px;
 }
 .banner2-bg{
     background-color: rgb(190, 255, 255);
-    border-radius: 10px;
 }
 .banner3-bg{
     background-color: #F1E158;
+}
+.banner4-bg{
+    background-color: #D3DDFF;
+}
+.banner5-bg{
+    background-color: #263C4B;
+}
+.banner1-bg,.banner2-bg,.banner3-bg,.banner4-bg,.banner5-bg{
     border-radius: 10px;
 }
 
 .carousel-h1{
     color: rgb(61, 61, 61);
 }
-
+.white-font-color{
+    color: white;
+}
 .carousel-control-next, .carousel-control-prev {
     width: 8%;
 }
