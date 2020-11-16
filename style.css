@@ -105,6 +105,9 @@
     background-color: white;
     border-top: none;
 }
+.card-text{
+    font-size: 14px;
+}
 .text-muted{
     text-align: justify;
 }
