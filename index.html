@@ -6,47 +6,50 @@
     <title>Cat Commerce</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/logo/cat-logo.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-            <a class="navbar-brand" href="#">
-              <img class="logo" src="images/logo/cat-logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active px-2">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="#watch">Wrist Watch</a>
-                </li>
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="#shoe">Shoe</a>
-                </li>
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="#bag">Travel Bag</a>
-                </li>
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="#about-us">About us</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-    </div>
+    <header class="header fixed-top">
+      <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+              <a class="navbar-brand" href="#">
+                <img class="logo" src="images/logo/cat-logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active px-2">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#watch">Wrist Watch</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#shoe">Shoe</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#bag">Travel Bag</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#about-us">About us</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </nav>
+      </div>
+    </header>
 
     <!------------------------- Carousel ------------------------------->
 
     
-    <div class="container container-mbl">
+    <div class="container container-mbl margin-top">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active banner1-bg">
@@ -129,7 +132,7 @@
     <!------------------------------ Categories ---------------------------->
 
 
-    <div class="container categories">
+    <div class="container categories margin-top">
       <h2 class="text-center cat-h1">Categories</h2><hr class="cat-hr">
       <div class="row">
         <div class="col-md-3 div-cat cat1">
@@ -151,7 +154,7 @@
     <!--------------------------- Card deck ------------------------------->
 
 
-    <div class="container watch container-mbl" id="watch">
+    <div class="container watch container-mbl margin-top" id="watch">
       <h2 class="text-center cat-h1">Watches</h2><hr class="cat-hr">
       <div class="card-deck">
         <div class="card">
@@ -192,7 +195,7 @@
 
 
     
-    <div class="container shoes container-mbl" id="shoe">
+    <div class="container shoes container-mbl margin-top" id="shoe">
       <h2 class="text-center cat-h1">Shoes</h2><hr class="cat-hr">
       <div class="card-deck">
         <div class="card">
@@ -233,7 +236,7 @@
     
 
 
-    <div class="container watch container-mbl" id="bag">
+    <div class="container watch container-mbl margin-top" id="bag">
       <h2 class="text-center cat-h1">Travel Bags</h2><hr class="cat-hr">
       <div class="card-deck">
         <div class="card">
@@ -273,8 +276,67 @@
     </div>
 
 
-    <footer>
-      
+    <footer id="about-us">
+      <section class="footer-section1">
+        <div class="container container-footer text-center margin-top">
+          <h4>We Accept</h4>
+          <p style="color: gray;">We accept Cards shown below. We accept these kinds of cards so that our coustomer feel easy and quick to pay us.</p><br>
+          <div class="payment-logo d-flex justify-content-around">
+            <img src="images/payment-logos/visa.png" alt="">
+            <img src="images/payment-logos/mastercard.png" alt="">
+            <img src="images/payment-logos/amex.png" alt="">
+            <img src="images/payment-logos/paypal.png" alt="">
+            <img src="images/payment-logos/maestro.png" alt="">
+            <img src="images/payment-logos/diners-club.png" alt="">
+            <img src="images/payment-logos/cirrus.png" alt="">
+            <img src="images/payment-logos/discover.png" alt="">
+            <img src="images/payment-logos/jcb.png" alt="">
+            <img src="images/payment-logos/wirecard.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="footer-section2">
+        <div class="container container-footer">
+          <div class="row footer-row">
+            <div class="col-md-4 footer-col1">
+              <a style="text-decoration: none;" href="#">
+                <div class="d-flex justify-align-btween align-items-center">
+                  <div class="footer-logo-div">
+                    <img class="footer-logo" src="images/logo/cat-logo.png" alt="">
+                  </div>
+                  <h3 style="color: white;padding-left: 20px;">Badhan</h3>
+                </div>
+              </a>              
+              <p class="footer-p"><br><i class="fa fa-map-marker" aria-hidden="true"></i> A/2, Jahurul Islam Avenue<br>Jahurul Islam City, Aftabnagar<br>Dhaka-1212, Bangladesh
+                <br><i class="fa fa-phone" aria-hidden="true"></i> 02-55555, 0123456789
+                <br><i class="fa fa-envelope" aria-hidden="true"></i><span style="cursor: pointer; "> info@cat.com</span>
+              </p>
+            </div>
+            <div class="col-md-4 footer-col2 d-flex align-items-center">
+              <div>
+                <h4>About us</h4>
+                <p>We offer very high quality products for competitive prices. Our main goal is customer satisfaction, which we obtain through market orientation and the allocation of ongoing service and support.</p>
+              </div>
+            </div>
+            <div class="col-md-4 footer-col3 d-flex align-items-center">
+              <div>
+                <h4>Customer service</h4>
+                <ul class="footer-list">
+                    <li>Contact Us</li>
+                    <li>Products</li>
+                    <li>Reviews</li>
+                    <li>Latest Updates</li>
+                    <li>Have any questions?</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer-section3 d-flex align-items-center justify-content-center">
+        <small><i class="fa fa-copyright" aria-hidden="true"></i>
+          Copyright 2020 - Mahmud Alam Badhan. All rights reserved.</small>
+      </section>
     </footer>
 
 
