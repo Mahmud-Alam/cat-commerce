@@ -286,6 +286,20 @@
         line-height: 20px;
     }
 }
+@media only screen and (max-width: 768px) and (orientation: portrait){
+    .categories{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+    .buy-now{
+        font-size: 14px;
+    }
+    .footer-col2{
+        display: block;
+    }
+}
 @media only screen and (max-width: 800px) and (orientation: landscape){
     .margin-top-max{
         margin-top: 140px;
@@ -333,9 +347,8 @@
     .footer-section2{
         height: 280px;
     }
-    .footer-col1{
-    }
     .footer-col2{
+        display: block;
     }
     .footer-col3{
         padding: 0 0 0 20px;
