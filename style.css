@@ -1,7 +1,7 @@
 .header{
     background-color: #17a2b8;
 }
-.margin-top{
+.cat-margin-top{
     margin-top: 120px;
 }
 .margin-top-max{
@@ -74,7 +74,7 @@
     margin: 20px 45px;
     overflow: hidden;
 }
-.cat-h1{
+.cat-head-text,.cat-h1{
     color: rgb(61, 61, 61);
 }
 .div-cat img{
@@ -154,13 +154,13 @@
     font-size: 14px;
     line-height: 1.5em;
     color: rgb(245, 245, 245);
-    padding: 0 50px 0 50px;
+    padding: 0px 50px 0 50px;
     text-align: justify;
     border-right: 1px solid white;
 }
 .footer-col3{
     color: rgb(245, 245, 245);
-    padding: 0 0 0 50px;
+    padding: 0px 0 0 50px;
 }
 .footer-p{
     color: rgb(245, 245, 245);
@@ -186,11 +186,14 @@
     .hide{
         display: none !important;
     }
+    .hide-br{
+        display: none;
+    }
     .carousel-h1{
         font-size: 1.75em;
     }
     .price{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .container-mbl{
         padding-left:15px;
@@ -207,6 +210,9 @@
         width: 100%;
         padding:0 0 0 50px ;
     }
+    .footer-col3{
+        padding: 0 0 0 50px;
+    }
     .footer-section1{
         padding: 0 10px;
     }
@@ -214,16 +220,129 @@
         height: 440px;
         overflow: hidden;
     }
+    .copyright{
+        font-size: 10px;
+    }
 }
-@media only screen and (min-width: 768px){
-    .body{
-        overflow: hidden;
+
+@media only screen and (max-width: 768px) and (orientation: landscape){
+    .margin-top-max{
+        margin-top: 120px;
     }
-    .div-cat{
-        margin: 0 auto;
+    .carousel-h1{
+        font-size: 1.5em;
     }
-    .div-cat h1{
-        font-size: 22px;
+    .carousel-p{
+        font-size: 12px;
+    }
+    .carousel-span{
+        display: none;
+    }
+    .price{
+        font-size: 1em;
+    }
+    .buy-now{
+        font-size: 8px;
+        padding: 6px 15px ;
+    }
+    .hide{
+        display: none;
+    }
+    .hide-br{
+        display: none !important;
+    }
+    .cat-head-text{
+        font-size: 1.5em;
+    }
+    .cat-h1{
+        font-size: 12px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .margin-top{
+        margin-top: 80px;
+    }
+    .categories{
+        display: none;
+    }
+    .footer-logo-div{
+        width: 12%;
+    }
+    .footer-section2{
+        height: 380px !important;
+    }
+    .footer-col1{
+        border-right: 1px solid transparent;
+    }
+    .footer-col2{
+        display: none !important;
+    }
+    .footer-col3{
+        padding: 0 0 0 20px;
+    }
+    .footer-p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 800px) and (orientation: landscape){
+    .margin-top-max{
+        margin-top: 140px;
+    }
+    .carousel-h1{
+        font-size: 1.5em;
+    }
+    .carousel-p{
+        font-size: 12px;
+    }
+    .carousel-span{
+        display: none;
+    }
+    .price{
+        font-size: 1em;
+    }
+    .buy-now{
+        font-size: 12px;
+        padding: 8px 22px;
+    }
+    .categories{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+    .hide-br{
+        display: none;
+    }
+    .cat-head-text{
+        font-size: 1.5em;
+    }
+    .cat-h1{
+        font-size: 12px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .margin-top{
+        margin-top: 80px;
+    }
+    .footer-logo-div{
+        width: 12%;
+    }
+    .footer-section2{
+        height: 280px;
+    }
+    .footer-col1{
+    }
+    .footer-col2{
+    }
+    .footer-col3{
+        padding: 0 0 0 20px;
+    }
+    .footer-p{
+        font-size: 12px;
+        line-height: 20px;
     }
 }
 @media only screen and (min-width: 1000px ){
