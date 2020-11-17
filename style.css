@@ -4,6 +4,9 @@
 .margin-top{
     margin-top: 120px;
 }
+.margin-top-max{
+    margin-top: 200px;
+}
 .navbar-brand{
     width: 60px;
 }
@@ -20,18 +23,21 @@
     background-color: rgb(190, 239, 255);
 }
 .banner2-bg{
-    background-color: rgb(190, 255, 255);
+    background-color: #DBF8FF;
 }
 .banner3-bg{
-    background-color: #F1E158;
+    background-color: rgb(190, 255, 255);
 }
 .banner4-bg{
-    background-color: #D3DDFF;
+    background-color: #F1E158;
 }
 .banner5-bg{
+    background-color: #D3DDFF;
+}
+.banner6-bg{
     background-color: #263C4B;
 }
-.banner1-bg,.banner2-bg,.banner3-bg,.banner4-bg,.banner5-bg{
+.banner1-bg,.banner2-bg,.banner3-bg,.banner4-bg,.banner5-bg,.banner6-bg{
     border-radius: 10px;
 }
 
@@ -95,6 +101,8 @@
 }
 .card{
     border:none;
+    border-radius: 10px;
+    overflow: hidden;
     box-shadow: 2px 2px 10px lightgray;
     transition: box-shadow .3s ease-in-out;
 }
