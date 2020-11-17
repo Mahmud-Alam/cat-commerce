@@ -188,7 +188,7 @@ li{
 
 @media only screen and (max-width: 600px){
     .margin-top-max{
-        margin-top: 120px;
+        margin-top: 80px;
     }
     .margin-top{
         margin-top: 80px;
@@ -237,7 +237,7 @@ li{
 
 @media only screen and (max-width: 768px) and (orientation: landscape){
     .margin-top-max{
-        margin-top: 120px;
+        margin-top: 80px;
     }
     .carousel-h1{
         font-size: 1.5em;
@@ -297,6 +297,9 @@ li{
     }
 }
 @media only screen and (max-width: 768px) and (orientation: portrait){
+    .margin-top-max{
+        margin-top: 80px;
+    }
     .categories{
         display: none;
     }
@@ -312,7 +315,7 @@ li{
 }
 @media only screen and (max-width: 800px) and (orientation: landscape){
     .margin-top-max{
-        margin-top: 140px;
+        margin-top: 80px;
     }
     .carousel-h1{
         font-size: 1.5em;
@@ -369,10 +372,18 @@ li{
     }
 }
 @media only screen and (min-width: 1000px ){
+    .margin-top-max{
+        margin-top: 80px;
+    }
     .div-cat{
         margin: 0 auto;
     }
     .div-cat h1{
         font-size: 2em;
+    }
+}
+@media only screen and (min-width: 1500px ){
+    .margin-top-max{
+        margin-top: 200px;
     }
 }
