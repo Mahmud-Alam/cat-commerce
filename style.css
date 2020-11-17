@@ -177,10 +177,14 @@
 }
 
 @media only screen and (max-width: 600px){
-    .container{
-        padding-left:0 ;
-        padding-right:0;
-        margin-bottom:30px !important;
+    .margin-top-max{
+        margin-top: 120px;
+    }
+    .margin-top{
+        margin-top: 80px;
+    }
+    .hide{
+        display: none !important;
     }
     .carousel-h1{
         font-size: 1.75em;
@@ -199,8 +203,22 @@
     .carousel-span{
         display: none;
     }
+    .footer-col1{
+        width: 100%;
+        padding:0 0 0 50px ;
+    }
+    .footer-section1{
+        padding: 0 10px;
+    }
+    .footer-section2{
+        height: 440px;
+        overflow: hidden;
+    }
 }
 @media only screen and (min-width: 768px){
+    .body{
+        overflow: hidden;
+    }
     .div-cat{
         margin: 0 auto;
     }
